@@ -1,2 +1,11 @@
-# presenciaDigital
-Dale importancia a tu presencia digital (o por qué deben empezar a importarte tus derechos en la red y su neutralidad)
+# Dale importancia a tu presencia digital (o por qué deben empezar a importarte tus derechos en la red y su neutralidad)
+
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+
+Somos conscientes de que prácticamente todo lo que nos rodea es tecnológico, pero de lo que quizás no somos conscientes es de lo que la tecnología sabe de nosotros. Cada vez que aceptamos unos "términos de uso" de una red social o de una aplicación es muy posible que sin pensar en ello les estemos cediendo más datos sobre nosotros de los que necesiten y de los que realmente queremos darles; en las redes sociales esto puede ser especialmente peligroso, ya que dada la gran cantidad de información que podemos generar, esto se pueda volver en nuestra contra al ser "clasificados", algo que puede ir más allá de recomendaciones de compra y puede ser que nos presenten inconvenientes en según que situaciones.
+
+Aunque pueda parecerlo, esto no va sobre conspiraciones y gorritos de papel de aluminio, va sobre sentido común. La privacidad no es algo que solo deba importarle a las "malas personas", la privacidad es algo que hace que las personas puedan desarrollarse libremente, y si no se limita la recogida masiva de datos sobre las personas, a la larga, los datos recopilados van a ser abusados por alguien. Por todo esto, debemos empezar a darle importancia a nuestra privacidad, por lo que debemos empezar a protegernos activamente en mayor o menor medida.
+
+Sin embargo, esto no es lo único de lo que debemos preocuparnos, ya que el problema de la privacidad es el que podemos considerar que nos afecta más directamente, pero otros problemas como la neutralidad en la red en la red o la censura digital también son especialmente importantes, ¿cómo podemos confiar en que un organismo o persona decida cómo accedemos a la red o qué vemos según sus propios interes?
+
+Todo este de tipo de cuestiones fue lo que hizo que naciera Interferencias, un grupo de personas interesadas en la privacidad, la vigilancia masiva y los derechos y la seguridad en Internet que comparten información y opiniones sobre estos temas con el objetivo de participar activamente en la defensa de los mismos.
