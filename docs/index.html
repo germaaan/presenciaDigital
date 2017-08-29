@@ -1,49 +1,161 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+  <title>Dale importancia a tu presencia digital</title>
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+  <link rel="stylesheet" href="css/reveal.css">
+  <link rel="stylesheet" href="css/theme/black.css">
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+  <!-- Theme used for syntax highlighting of code -->
+  <link rel="stylesheet" href="lib/css/zenburn.css">
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+    document.getElementsByTagName('head')[0].appendChild(link);
+  </script>
 
-		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
-			});
-		</script>
-	</body>
+  <style media="screen" type="text/css">
+    .reveal section img {
+      vertical-align: middle;
+      background: none;
+      border: none;
+      box-shadow: none;
+    }
+
+    ul {
+      width: 70%;
+      margin: auto;
+    }
+
+    #wrap {
+      width: 600px;
+      margin: 0 auto;
+    }
+
+    #left_col {
+      float: left;
+      width: 300px;
+    }
+
+    #right_col {
+      float: right;
+      width: 300px;
+    }
+  </style>
+  </style>
+</head>
+
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section data-background-image="images/snowden_fondo.png">
+        <h2>Dale importancia a tu presencia digital</h2>
+        <h5>(o por qué deben empezar a importarte tus derechos en la red y su neutralidad)</h5>
+        <p style="line-height: 43%">
+          <font size="4">
+            <i style="font-size: 25px;">Germán Martínez Maldo 	nado</i>
+            <br/> <a href="https://twitter.com/germaaan_">@germaaan_</a>
+            <br/><br/><i style="font-size: 25px;">Interferencias</i>
+            <br/><a href="https://twitter.com/Inter_ferencias">@Inter_ferencias</a>
+          </font>
+          <br/>
+          <img alt="image" src="images/logo.png" height="150" />
+          <br/>
+          <img alt="CC-BY-SA" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
+        </p>
+      </section>
+      <section>
+        <h2>¿Quién soy yo?</h2>
+      </section>
+      <section>
+        <h2>¿Quiénes somos Interferencias?</h2>
+      </section>
+      <section>
+        <h3>¿Qué hacemos?</h3>
+      </section>
+      <section>
+        <h3>¿Por qué consideramos que lo que hacemos es importante?</h3>
+        <p>
+          "Es imposible corregir abusos a no ser que sepamos que están sucediendo"
+        </p>
+      </section>
+      <section>
+        <h3>¿Qué es la privacidad?</h3>
+        <ul>
+          <font size="6">
+            <li><a href=http://dle.rae.es/srv/search?m=30&w=privacidad>RAE</a>: ámbito de la vida privada que se tiene derecho a proteger de cualquier intromisión.</li>
+            <li class="fragment"><a href=https://es.oxforddictionaries.com/definicion/privacidad>Oxford</a>: parte más interior o profunda de la vida de una persona, que comprende sus sentimientos, vida familiar o relaciones de amistad.</li>
+            <li class="fragment"><a href=https://es.wikipedia.org/wiki/Privacidad>Wikipedia</a>: el ámbito de la vida personal de un individuo, quien se desarrolla en un espacio reservado, el cual debe mantenerse confidencial.</li>
+            <li class="fragment"><a href=http://www.wordreference.com/definicion/privacidad>WordReference.com</a>: derecho y propiedad de la propia intimidad y vida privada.</li>
+          </font>
+        </ul>
+      </section>
+      <section>
+        <h3>¿Qué es la privacidad?</h3>
+        <p class="fragment">La privacidad es todo eso que hacemos cuando sentimos que nadie nos está observando. Es lo que nos permite desarrollarnos como personas, lo que nos permite tener dignidad.</p>
+        <p class="fragment">La privacidad no es un derecho absoluto, es un derecho fundamental hasta que choca con otro derecho fundamental.</p>
+      </section>
+      <section>
+        <h6>¿Por qué se habla de pronto tanto de privacidad en los últimos años?</h6>
+        <div id="wrap">
+          <div id="left_col">
+						<img src="images/snowden.png">
+						<p>Edward Snowden</p>
+          </div>
+          <div id="right_col">
+            <ul>
+							<font size="5">
+							<li>Consultor tecnológico y antiguo empleado de la CIA y la NSA</li>
+							<br>
+							<li>En junio de 2013 hizo públicos documentos clasificados como alto secreto de la NSA</li>
+							<br>
+							<li>Vigilancia másiva: PRISM y XKeyscore</li>
+						</font>
+					</ul>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h3>Cómo podemos protegernos</h3>
+      </section>
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+      // More info about config & dependencies:
+      // - https://github.com/hakimel/reveal.js#configuration
+      // - https://github.com/hakimel/reveal.js#dependencies
+      Reveal.initialize({
+        dependencies: [{
+            src: 'plugin/markdown/marked.js'
+          },
+          {
+            src: 'plugin/markdown/markdown.js'
+          },
+          {
+            src: 'plugin/notes/notes.js',
+            async: true
+          },
+          {
+            src: 'plugin/highlight/highlight.js',
+            async: true,
+            callback: function() {
+              hljs.initHighlightingOnLoad();
+            }
+          }
+        ]
+      });
+    </script>
+</body>
+
 </html>
